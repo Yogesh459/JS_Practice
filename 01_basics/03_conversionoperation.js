@@ -28,3 +28,14 @@ let letString = String(letNumber)
 console.log(letString); //o/p is 123 and typeof is string
 
 
+//*********Operations***** */
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2**2);
+// console.log(2*2);
+// console.log(2/2);
+// console.log(2%2);
+
+//Opration with String 
+let str="Yogesh"
+console.log("Hello "+str);
