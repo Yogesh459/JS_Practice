@@ -1,0 +1,32 @@
+// Mainly have two types
+// 1. Primitive(Value) 2. Non-Primitive (reference)
+// 1. String/Number/Boolean/null/undefined/Symbol/BigInt
+
+// 2. Array/Object/Function
+
+//e.g -> In JS we don't going to define datatype of variable so once we assign value to datatype it automatically consider datatype for variable so Js is dynamically language.
+
+ const score=100
+const outsideTemp=null
+let userEmail;
+const id=Symbol('123')
+const anotherID = Symbol('123')
+console.log(id===anotherID);
+const bigNo= 1234312123n;
+
+//non primitive
+
+const heros=["Shaktiman","NaagRaj","doga"];
+
+let myObj={
+    name:"Yogesh",
+    age:30,
+}
+
+const myFun= function(){
+    console.log("Hello World");
+    
+}
+
+console.log(typeof myFun);
+console.log(typeof anotherID);
